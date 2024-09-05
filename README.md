@@ -3,17 +3,20 @@
 ### 📑 Descrição do Projeto
 O projeto dre-test tem como objetivo provisionar em ambiente docker a ferramenta Apache Airflow
 
-```
+
 ### 🌎 Mapa do Projeto
 Abaixo segue a estrutura de pastas e suas definições:
 
-├───dags - Pasta referente aos scripts dags
-│   └───**smooth.py** - Script dag
-│       
-├───compose.yml - Arquivo docker com ambiente Apache Airflow
-├───.env - Arquivo de variaveis de ambiente 
+- **dags** - Pasta referente aos scripts dags
+   - **smooth.py** - Script dag
 
-```
+- **images** - Pasta referente a imagens do markdown
+    - **diagrama-airflow.png** - imagem de diagrama airflow
+
+- **compose.yml** - Arquivo docker com ambiente Apache Airflow
+- **.env** - Arquivo de variaveis de ambiente 
+
+
 
 ### Passos para execução Windows
 
@@ -25,7 +28,7 @@ docker-compose up airflow-init
 docker-compose up
 ```
 ### Arquitetura de Apache Airflow
-```
+
 Abaixo estará disponivel a arquitetura da ferramenta Apache Airflow e seus componentes instalados:
 
 Arquitetura Apache Airflow:
@@ -41,7 +44,7 @@ Arquitetura Apache Airflow:
     - **airflow-init**: Inicializa o banco de dados e configura seu schema.
     - **airflow-cli**: Interface de linha de comando para interagir com o Airflow, executar comandos e scripts.
     - **flower**:  Monitoramento em tempo real dos workers do Celery e das tarefas.
-```
+
 ### Referência
 ```
 https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
