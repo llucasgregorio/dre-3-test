@@ -52,6 +52,11 @@ Arquitetura Apache Airflow:
     - **airflow-cli**: Interface de linha de comando para interagir com o Airflow, executar comandos e scripts.
     - **flower**:  Monitoramento em tempo real dos workers do Celery e das tarefas.
 
+### Arquitetura Nuvem sugerida
+Provider de arquitetura: **Azure**
+<img src="images/aks-airflow.png" alt="Diagrama de ferramenta airflow" />
+
+
 ### Referência
 ```
 https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
