@@ -17,6 +17,11 @@ Abaixo segue a estrutura de pastas e suas definições:
 - **.env** - Arquivo de variaveis de ambiente 
 
 
+### Pré requisito
+Para execução de projeto precisaremos tem em nossa estação de trabalho a ferramenta Docker instalada. Segue link de documentação oficial para instalação:
+```
+https://docs.docker.com/engine/install/
+```
 
 ### Passos para execução Windows
 
@@ -32,8 +37,10 @@ docker-compose up
 Abaixo estará disponivel a arquitetura da ferramenta Apache Airflow e seus componentes instalados:
 
 Arquitetura Apache Airflow:
-    <img src="images/diagrama-airflow.png" alt="Diagrama de ferramenta airflow" />
 
+<img src="images/diagrama-airflow.png" alt="Diagrama de ferramenta airflow" />
+
+ 
  - Componentes Instalados do Apache Airflow:
     - **PostgreSQL**: Banco de dados que armazena o estado das DAGs, metadados, logs e informações de configuração, crucial para o funcionamento da ferramenta.
     - **Redis**: Armazena as mensagens e o estado de tarefas de forma eficiente. É usado como backend para a fila de tarefas.
