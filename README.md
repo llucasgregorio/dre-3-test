@@ -12,6 +12,7 @@ Abaixo segue a estrutura de pastas e suas definições:
 
 - **images** - Pasta referente a imagens do markdown
     - **diagrama-airflow.png** - imagem de diagrama airflow
+    - **aks-airflow.png** - imagem de diagrama airflow em nuvem
 
 - **compose.yml** - Arquivo docker com ambiente Apache Airflow
 - **.env** - Arquivo de variaveis de ambiente 
